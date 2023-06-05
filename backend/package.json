@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Prueba de backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Equipo 5",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanPabloCostas/Proyecto_Cajero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuanPabloCostas/Proyecto_Cajero/issues"
+  },
+  "homepage": "https://github.com/JuanPabloCostas/Proyecto_Cajero#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
+  }
+}
